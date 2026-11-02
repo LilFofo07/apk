@@ -106,7 +106,7 @@ class AdService {
       // O servidor da rede de anúncios repassará esse valor para o nosso Webhook seguro
       AppLovinMAX.setRewardedAdExtraParameter(_adUnitId, 'custom_data', currentUserId);
 
-      await AppLovinMAX.showRewardedAd(_adUnitId);
+      AppLovinMAX.showRewardedAd(_adUnitId);
       return true;
     } else {
       loadRewardedAd();
