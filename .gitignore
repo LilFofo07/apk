@@ -1,0 +1,35 @@
+# Ambientes e segredos
+.env
+*.env
+local_rewards.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+
+# Android
+.gradle/
+local.properties
+mobile/android/.gradle/
+mobile/android/local.properties
+*.iml
+.idea/
+
+# Sistema Operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
